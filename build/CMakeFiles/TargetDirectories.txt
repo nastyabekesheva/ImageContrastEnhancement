@@ -1,2 +1,0 @@
-/Users/nastyabekesheva/Thesis/thesis-code/build/CMakeFiles/edit_cache.dir
-/Users/nastyabekesheva/Thesis/thesis-code/build/CMakeFiles/rebuild_cache.dir
