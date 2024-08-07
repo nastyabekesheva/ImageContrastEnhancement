@@ -14,8 +14,8 @@ def simple_seidel(U, Ax, Ay, Cx, Cy, B, D, nx, ny, eps=1e-4, max_iter=10000):
     iter = 0
     while err > eps and iter < max_iter:
         iter += 1
-        if iter % 100 == 0:
-            print(f'iter = {iter:5d}; err = {err:4.3e}')
+        #if iter % 100 == 0:
+            #print(f'iter = {iter:5d}; err = {err:4.3e}')
         err = 0
         U_old = U.copy()
         U[1:-1, 1:-1] = (Ax[1:-1, 1:-1] * U_old[:-2, 1:-1] + Cx[1:-1, 1:-1] * U_old[2:, 1:-1] +
